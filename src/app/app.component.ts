@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'l1-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'lecture1';
-}
+export class AppComponent {}
