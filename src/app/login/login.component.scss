@@ -1,0 +1,40 @@
+div.form {
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    h2 {
+        margin: 0 0 20px;
+        line-height: 1;
+        color: #333;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      input {
+        outline: none;
+        display: block;
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        color: #ccc;
+        box-sizing: border-box;
+        font-size: 14px;
+        transition: 0.2s linear;
+        &input:focus {
+          color: #333;
+          border: 1px solid #333;
+        }
+      }
+      button {
+        cursor: pointer;
+        background: #333;
+        width: 100%;
+        padding: 10px 15px;
+        border: 0;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+      }    
+}
